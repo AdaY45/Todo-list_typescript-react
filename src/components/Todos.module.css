@@ -1,0 +1,9 @@
+.todos-list {
+    list-style: none;
+    padding: 0;
+}
+
+.todo-list-item {
+    display: flex;
+    align-items: stretch;
+}

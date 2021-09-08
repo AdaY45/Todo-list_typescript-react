@@ -1,0 +1,24 @@
+.todo-item {
+    background-color: #e5e1da;
+    padding: 0;
+    margin: 10px 200px;
+    color: #160b01;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cancel {
+    border: none;
+    padding: 15px 20px;
+    background-color: #e5e1da;
+    color: #160b01;
+    cursor: pointer;
+}
+
+.cancel:hover {
+    background-color: #e3a66d;
+}
+
+.todo-text {
+    margin: 10px;
+}
