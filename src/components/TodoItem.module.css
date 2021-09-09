@@ -5,6 +5,7 @@
     color: #160b01;
     display: flex;
     justify-content: space-between;
+    cursor: pointer;
 }
 
 .cancel {
@@ -21,4 +22,19 @@
 
 .todo-text {
     margin: 10px;
+}
+
+.checked, .checked .cancel{
+    background-color: #aca393;
+    color: #fff;
+}
+
+.checked .todo-text {
+    text-decoration: line-through;
+}
+
+@media screen and (max-width: 900px) {
+    .todo-item {
+        margin: 10px 55px;
+    }
 }

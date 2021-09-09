@@ -1,5 +1,4 @@
 .form {
-    /* border: 20px solid #e5e1da; */
     margin: 0 200px;
     padding: 50px 0;
 }
@@ -17,7 +16,7 @@ label {
 
 input {
     width: 98%;
-    height: 30px;
+    height: 34px;
     padding: 5px 10px;
     border: none;
     background-color: #e5e1da;
@@ -32,4 +31,21 @@ input {
     margin-top: 22px;
     padding: 10px 30px;
     font-size: 16px;
+}
+
+@media screen and (max-width: 900px) {
+    .form {
+        margin: 0 50px;
+    }
+
+    input {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    input {
+        width: 90%;
+        height: 40px;
+    }
 }
